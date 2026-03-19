@@ -1,0 +1,48 @@
+*{
+    font-size: 25px;
+    text-align: center;
+
+}
+.head {
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+h1 {
+    font-size: 1.5rem;
+}
+.menu {
+    background-color: rgb(48, 39, 39);
+    color: white;
+    padding: 1px;
+}
+ul {
+    display: flex;
+    margin-left: 34%;
+}
+li {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.infomation {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: justify !important;
+    margin-bottom: 5px;
+}
+table {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+table, th, td {
+    border: 3px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+th {
+    background-color: rgb(230, 226, 226);
+    color: red;
+}

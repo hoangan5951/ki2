@@ -22,6 +22,7 @@ a:hover{
 h2{
     color: rgb(2, 2, 187);
     font-size: 1.5em;
+    text-align: left;
 }
 h2+p{
     color: red;
@@ -37,3 +38,20 @@ img{
 .logo_css:active + img{
     display: block;
 }
+div{
+    text-align: left;
+}
+div[id="1"]{
+    display: none;
+}
+div[id="2"]{
+    display: none;
+}
+h2[id="1"]:hover + div[id="1"]{
+    display: block;
+}
+
+h2[id="2"]:hover + div[id="2"]{
+    display: block;
+}
+
